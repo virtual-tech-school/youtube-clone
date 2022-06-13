@@ -19,7 +19,6 @@
 - [ ] My code follows the coding standards of this project.
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
-- [ ] I am raising the PR on the `development` branch of this repository and not the `main` branch
 
 ## 📄 Note to reviewers
 
