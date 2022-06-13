@@ -1,5 +1,5 @@
 # Coding Standards
-Hello, and welcome to this project repository by Virtual Tech School! This document contains the coding standards that needs to be followed in order to contribute to the project.
+Hello, and welcome to this project repository by Virtual Tech School! This project is a community maintained responsive clone of YouTube and this document contains the coding standards that needs to be followed in order to contribute to the project.
 
 ## HTML & CSS
 
