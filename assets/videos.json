@@ -1,0 +1,753 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "efG8BPvouwzbQMaTfhWMdY1_YXs",
+    "regionCode": "IN",
+    "pageInfo": {
+      "totalResults": 25,
+      "resultsPerPage": 22
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "VuH5YevqCXi7z8UJBupLiWuBa2k",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "m52OeR-mfYo"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-07T12:30:16Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Multiple Threads of Execution &amp; Process Utilization - Linux Course For Beginners",
+          "description": "This Linux Tutorial focuses on the multiple threads of the execution mechanism of Linux, resource utilization by processes, and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/m52OeR-mfYo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/m52OeR-mfYo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/m52OeR-mfYo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-07T12:30:16Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "kJm7A9_JabPnr-Yr4mYpBCGCIzw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "08SwnaMhL1k"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-03T14:45:00Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Kernel, System Calls &amp; Init Implementations For Beginners | Linux Masterclass Course",
+          "description": "This Linux Tutorial focuses on the boot process, kernel, system calls, and init implementations, which are the key to understanding ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/08SwnaMhL1k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/08SwnaMhL1k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/08SwnaMhL1k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-03T14:45:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "W3mhkdnr1kFK59AtnJBlQzWzF9I",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "PbMT53jaUaU"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-01T11:30:40Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Linux Filesystem, Partitions &amp; Inodes - A Deep Dive For Beginners",
+          "description": "This Linux Tutorial focuses on devices, filesystems, partitions, and inodes, which are the key to understanding any operating ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/PbMT53jaUaU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/PbMT53jaUaU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/PbMT53jaUaU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-01T11:30:40Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Rl3xnm2tIwgyGAoTTidLiIaCaxM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "7t-JbluW0ew"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-29T04:00:06Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Engineering Without Degree | Career Guidance - AMA",
+          "description": "I'm Apoorv Goyal, a software engineer with over 4 years of experience in software engineering and web development. I dropped ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7t-JbluW0ew/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7t-JbluW0ew/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7t-JbluW0ew/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-29T04:00:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "_NWLLO2SXoJfjuEotF7A1vSGneI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "cnbvsWKf-qM"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-26T12:30:17Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Processes In Linux - How Linux Works Internally? Linux Masterclass Course",
+          "description": "This Linux Tutorial focuses on processes, which are the most fundamental and essential part of any operating system. We take a ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/cnbvsWKf-qM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/cnbvsWKf-qM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/cnbvsWKf-qM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-26T12:30:17Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "a30nZNpB-Bi0GGuRuZHP0-iDMNI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "hxNFeL2qY-k"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-22T11:30:14Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Linux System Administrators - User Management &amp; Permissions Tutorial For Beginners",
+          "description": "This Linux Tutorial focuses on the building blocks of system administrator roles introducing you to managing different users, ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hxNFeL2qY-k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hxNFeL2qY-k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hxNFeL2qY-k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-22T11:30:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lSAPMo48Q6ywgsn7PD9mPyTpR4o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "xVaC_G6aeH0"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-20T14:30:11Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Linux Tutorial For Beginners - 2 | Standard Streams and File Manipulation | Bootcamp",
+          "description": "This Linux tutorial will give you an introduction to the basic Linux commands and their standard streams, along with environment ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xVaC_G6aeH0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xVaC_G6aeH0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xVaC_G6aeH0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-20T14:30:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "GhoEdFqUu-wdl-ckW7oH8X_Nh7A",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "nRpmRDm-QrQ"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-18T15:00:22Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Getting Started With Linux On Windows 10/11 | 2022 - WSL2, VMWare &amp; Booting USB",
+          "description": "Are you a Windows user and want to get started with Linux? Maybe you're facing issues dual booting your system? This video is a ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-18T15:00:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "LEaFYWlLclOxxNSrR5V78Fdlzag",
+        "id": {
+          "kind": "youtube#playlist",
+          "playlistId": "PL2kSRH_DmWVZzZSN87g1dSDz0FUnp9PMh"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-14T23:21:48Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Web Development Course (No Degree Required) - The Road Less Travelled",
+          "description": "A Complete Web Development Full Stack Tutorial Based Hands-On Course and Bootcamp for Students, College Dropouts, and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-14T23:21:48Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "hu_2wTkCVhTVsI1CjvQYyaTXnpc",
+        "id": {
+          "kind": "youtube#playlist",
+          "playlistId": "PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-14T23:22:23Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Linux Masterclass Course - A Complete Tutorial From Beginner To Advanced",
+          "description": "This Playlist contains all the tutorial videos from the Linux Masterclass, which are primarily built for beginners to get started with ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nRpmRDm-QrQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-14T23:22:23Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lSv3cqHN33G5atkSwh0x3PCqfe8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Juo_0lpBMPY"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-13T13:30:10Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Linux Tutorial For Beginners - 1 | Bash Programming &amp; Operating Systems | Bootcamp",
+          "description": "This video is a part of Web Development Bootcamp and the Linux Masterclass, for beginners to skill up and become comfortable ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Juo_0lpBMPY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Juo_0lpBMPY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Juo_0lpBMPY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-13T13:30:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "_9Ex-C1Jt6AGHaTgwswEAVPn6Jg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "z5kGmVRlnYQ"
+        },
+        "snippet": {
+          "publishedAt": "2022-05-06T12:30:25Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Tips &amp; Tricks To Learn DSA &amp; Crack Interviews For Beginners | Simple 4 Step Method",
+          "description": "In this video, I'll share how to learn DSA (Data Structures and Algorithms) and crack DSA rounds in interviews through a simple 4 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/z5kGmVRlnYQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z5kGmVRlnYQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z5kGmVRlnYQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-05-06T12:30:25Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "OnN4haWQ6apZDnGnStqXog11cd4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "37kmOj2MIiA"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-29T12:30:00Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "FASTEST Way to Learn Coding and ACTUALLY Get a Job WITHOUT Degree | Tutorial Hell | Web Development",
+          "description": "In this video, I'll share how to learn programming fast and crack interviews to get your first full-time Software Engineer job! As a self ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/37kmOj2MIiA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/37kmOj2MIiA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/37kmOj2MIiA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-29T12:30:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Bh97FPjoD317L7u8nEeaT0ujGSs",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "x22xUrn74cc"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-25T04:02:29Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Learning While Doing A Job, Building Network, Freelancing, Interviews, Portfolio, Resume and More!",
+          "description": "I'm Apoorv Goyal, a software engineer with over 4 years of experience in software engineering and web development. I dropped ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/x22xUrn74cc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/x22xUrn74cc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/x22xUrn74cc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-25T04:02:29Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "YOYL7nozH7iVB0oVQPYnYleHNQE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "tCBxOq4i_r0"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-22T12:30:18Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Busting Remote Work Myths! Taxes? x4 FAANG Pay? Podcast with Kunal Kushwaha",
+          "description": "Are there any downsides of working remotely? Does remote work really pay more than FAANGM and other companies in India?",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/tCBxOq4i_r0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tCBxOq4i_r0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tCBxOq4i_r0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-22T12:30:18Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "g7xn0Diko83igUhJUaX0T_V9mJw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bJUpa1AJ2Gs"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-15T12:30:09Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Complete Web Development Roadmap WITHOUT Degree 2022 | Beginner To Advance In 1 Year",
+          "description": "Can I get a high paying remote job as a college dropout or without a degree? Sure you can and THIS roadmap is for you.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bJUpa1AJ2Gs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bJUpa1AJ2Gs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bJUpa1AJ2Gs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-15T12:30:09Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "KbnyZPyQpBFeI_cDUAjhSxUA6Io",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "onBooVTVwyw"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-08T12:30:10Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Companies Are Desperate To Hire THESE Engineers | Apoorv Goyal",
+          "description": "Should I choose DevOps or Web Development? What skills do I need to have to get a high paying remote job? Would interviewers ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/onBooVTVwyw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-08T12:30:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "WrgWjCmaQdepq-zXQYB-0ddlAI4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bwayvs_F9mU"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-30T12:30:10Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Announcing QnA on Career, Improve Your Problem Solving Skills With Debugging Series | Apoorv Goyal",
+          "description": "In this video, I make some huge announcements on Live QnA on Career Guidance and a new Debugging Series starting soon.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bwayvs_F9mU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bwayvs_F9mU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bwayvs_F9mU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-30T12:30:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "dzi8FczakzEsQUuT-pijwRuHOjU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "uvx-nQu-wqg"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-27T14:19:22Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "How To Become Successful? The Right Mindset | Apoorv Goyal",
+          "description": "In this video, I discuss some of the things that can act as deciding factor when it comes to succeeding. I also talk about the mindset ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uvx-nQu-wqg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uvx-nQu-wqg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uvx-nQu-wqg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-27T14:19:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "PbFHr4oPinXaVQb9JmNjVhSDnU0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "vJwCPSP36_g"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-18T13:30:12Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Should I Drop Out of College? Things To Consider | Apoorv Goyal",
+          "description": "In this video, I discuss some of the key things you HAVE to keep in mind before deciding if you want to drop out of college or not.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vJwCPSP36_g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vJwCPSP36_g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vJwCPSP36_g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-18T13:30:12Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "pJAVIbTVLCQOLJjHj6w7emtyR4s",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kq6AJ7-5jyk"
+        },
+        "snippet": {
+          "publishedAt": "2022-03-08T13:30:11Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Welcome To My Channel | Engineer Without Degree",
+          "description": "In this video, I discuss about my background, why I'm creating this channel, who is this channel for and what kind of content would ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kq6AJ7-5jyk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kq6AJ7-5jyk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kq6AJ7-5jyk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-03-08T13:30:11Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "fj_LmzoXFbuFCsHtsL3xH86MN90",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw"
+        },
+        "snippet": {
+          "publishedAt": "2020-04-22T08:38:07Z",
+          "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+          "title": "Apoorv Goyal",
+          "description": "This channel is going to have web development bootcamps, along with videos on startups, freelancing, passive income and its ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "Apoorv Goyal",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-04-22T08:38:07Z"
+        }
+      }
+    ]
+  }
