@@ -1,8 +1,8 @@
-var menu = document.getElementById('menu');
+let menu = document.getElementById('menu');
 
-var sideBar = document.querySelector(".sidebar");
+let sideBar = document.querySelector(".sidebar");
 
-var catagoryBar = document.querySelector(".catagory");
+let catagoryBar = document.querySelector(".catagory");
 
 menu.onclick = function () {
 
