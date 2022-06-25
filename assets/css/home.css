@@ -12,8 +12,8 @@ a {
 }
 
 .active {
-    color: #fff;
     background: #242424;
+    color: #fff;
 
 }
 
@@ -24,22 +24,24 @@ body {
 
 .catagory {
     align-items: center;
-    background: #fff;
+    background-color: #fff;
     border-bottom: 1px solid #dbdbdb;
-    border-top: 1px solid #dbdbdb;
     display: flex;
     height: 60px;
-    left: 260px;
+    justify-content: space-between;
+    margin-left: 258px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 0 20px;
-    position: fixed;
+    padding: 10px 2%;
+    position: sticky;
     top: 60px;
     width: calc(100% - 250);
+    z-index: 10;
 
 }
 
 .catagory_btn {
+
     background: #f0f0f0;
     border: 1px solid #dbdbdb;
     color: #242424;
@@ -57,6 +59,15 @@ body {
 
 }
 
+
+.channel-name {
+    margin-top: -1rem;
+    margin-left: 55px;
+    font-size: 14px;
+    color: #979797;
+
+}
+
 .flex-div {
     align-items: center;
     display: flex;
@@ -70,7 +81,7 @@ body {
 
 .foot small {
     cursor: pointer;
-    
+
 }
 
 img {
@@ -82,16 +93,32 @@ img {
     align-items: center;
     background: #fff;
     border-bottom: 1px solid #dbdbdb;
-    border-top: 1px solid #dbdbdb;
     display: flex;
     height: 60px;
-    left: 80px;
+    margin-left: 70px;
     overflow-x: auto;
     overflow-y: hidden;
     padding: 0 20px;
     position: fixed;
     top: 60px;
     width: calc(100% - 250);
+
+}
+
+.large-video-div {
+    margin-top: 40px;
+    margin-left: 50px;
+
+
+}
+
+.large-video-div .video {
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding: 10px;
+    width: 18rem !important;
 
 }
 
@@ -130,7 +157,6 @@ img {
 
 .nav {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     padding: 10px 2%;
     position: sticky;
@@ -244,20 +270,20 @@ img {
 
 }
 
-/* review */
-
 .small-sidebar .subscribe {
     display: none;
 }
 
 .small-sidebar .more {
-display: none;
-
-}
-.small-sidebar .foot{
     display: none;
 
 }
+
+.small-sidebar .foot {
+    display: none;
+
+}
+
 .small-sidebar {
     width: 10%;
 
@@ -278,9 +304,58 @@ display: none;
 
 }
 
+.small-sidebar i {
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+
+.title {
+    height: 45px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thumbnail {
+    height: 150px;
+    object-fit: cover;
+}
+
 .user {
     border-radius: 50%;
     margin-right: 0;
     width: 2.8125rem;
 
 }
+
+
+/* video */
+.video {
+    border: none !important;
+    margin-left: 80px;
+    overflow: hidden !important;
+    padding: 5px;
+    width: 16rem !important;
+
+}
+
+.video-div {
+    background-color: white;
+    margin-top: -1rem;
+    margin-left: 155px;
+    padding: 30px;
+}
+
+.video-user {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 1rem;
+    margin-left: -1rem;
+    width: 40px;
+
+}
+
+
+
+
+/* ----------------- */
