@@ -16,9 +16,9 @@
 [ ] - Not correct; marked as **not** done
 -->
 
-- [ ] My code follows the coding standards of this project.
-- [ ] This PR does not contain plagiarized content.
-- [ ] The title of my pull request is a short description of the requested changes.
+- [x] My code follows the coding standards of this project.
+- [x] This PR does not contain plagiarized content.
+- [x] The title of my pull request is a short description of the requested changes.
 
 ## 📄 Note to reviewers
 
