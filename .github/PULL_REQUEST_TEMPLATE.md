@@ -25,3 +25,16 @@
 <!-- Add notes to reviewers if applicable -->
 
 ## 📷 Screenshots
+
+- Type-Grid
+
+![Type-Grid](https://github.com/virtual-tech-school/youtube-clone/blob/53a6f75c4b50ed17b69d883e5fa46e5b6a22a431/assets/images/screenshots/image-1.png)
+
+- Trending Shorts
+
+![Trend](https://github.com/virtual-tech-school/youtube-clone/blob/53a6f75c4b50ed17b69d883e5fa46e5b6a22a431/assets/images/screenshots/image-2.png)
+
+- Responsive 
+
+![Responsive](https://github.com/virtual-tech-school/youtube-clone/blob/53a6f75c4b50ed17b69d883e5fa46e5b6a22a431/assets/images/screenshots/image-3.png)
+
