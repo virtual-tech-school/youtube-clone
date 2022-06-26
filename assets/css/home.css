@@ -12,8 +12,8 @@ a {
 }
 
 .active {
-    background: #242424;
     color: #fff;
+    background: #242424;
 
 }
 
@@ -24,18 +24,18 @@ body {
 
 .catagory {
     align-items: center;
-    background-color: #fff;
     border-bottom: 1px solid #dbdbdb;
     display: flex;
     height: 60px;
-    justify-content: space-between;
     margin-left: 258px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 10px 2%;
-    position: sticky;
     top: 60px;
     width: calc(100% - 250);
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px 2%;
+    position: sticky;
     z-index: 10;
 
 }
@@ -59,12 +59,11 @@ body {
 
 }
 
-
 .channel-name {
+    color: #979797;
+    font-size: 14px;
     margin-top: -1rem;
     margin-left: 55px;
-    font-size: 14px;
-    color: #979797;
 
 }
 
@@ -86,39 +85,6 @@ body {
 
 img {
     cursor: pointer;
-
-}
-
-.large-catagory-bar {
-    align-items: center;
-    background: #fff;
-    border-bottom: 1px solid #dbdbdb;
-    display: flex;
-    height: 60px;
-    margin-left: 70px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0 20px;
-    position: fixed;
-    top: 60px;
-    width: calc(100% - 250);
-
-}
-
-.large-video-div {
-    margin-top: 40px;
-    margin-left: 50px;
-
-
-}
-
-.large-video-div .video {
-    border: none !important;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    padding: 10px;
-    width: 18rem !important;
 
 }
 
@@ -310,16 +276,16 @@ img {
 
 }
 
+.thumbnail {
+    height: 150px;
+    object-fit: cover;
+}
 .title {
     height: 45px;
     overflow: hidden;
     width: 100%;
 }
 
-.thumbnail {
-    height: 150px;
-    object-fit: cover;
-}
 
 .user {
     border-radius: 50%;
@@ -328,11 +294,21 @@ img {
 
 }
 
-
 /* video */
+
+.video-user {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 1rem;
+    margin-left: -1rem;
+    width: 40px;
+
+}
+
 .video {
     border: none !important;
     margin-left: 80px;
+    object-fit: cover;
     overflow: hidden !important;
     padding: 5px;
     width: 16rem !important;
@@ -346,16 +322,38 @@ img {
     padding: 30px;
 }
 
-.video-user {
-    border-radius: 50%;
-    height: 40px;
-    margin-right: 1rem;
-    margin-left: -1rem;
-    width: 40px;
+
+/* For Large Screens */
+
+
+.large-video-div {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.large-video-div .video {
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding: 10px;
+    width: 18rem !important;
 
 }
 
+.large-catagory-bar {
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    height: 60px;
+    margin-left: 70px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 20px;
+    position: fixed;
+    top: 60px;
+    width: calc(100% - 250);
+    
 
-
-
-/* ----------------- */
+}

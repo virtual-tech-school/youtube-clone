@@ -21,13 +21,11 @@ fetch("./assets/videos.json")
 
     .then(data => {
 
-        // var channelIcon = data.channeldetails.snippet.thumbnails.high.url;
-
         var len = data.items.length;
         var channelIcon = data.items[len - 1].snippet.thumbnails.high.url;
 
         for (var i = 0; i < len - 1; i++) {
-            
+
             data.items[i].channelIcon = channelIcon;
 
             videoSection.innerHTML +=
