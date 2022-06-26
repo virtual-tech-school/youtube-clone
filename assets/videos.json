@@ -720,34 +720,34 @@
         "liveBroadcastContent": "none",
         "publishTime": "2022-03-08T13:30:11Z"
       }
-    }
-  ],
-  "channeldetails": {
-    "kind": "youtube#searchResult",
-    "etag": "fj_LmzoXFbuFCsHtsL3xH86MN90",
-    "id": {
-      "kind": "youtube#channel",
-      "channelId": "UCbKRTD-bqh0F2XM2raMO7kw"
     },
-    "snippet": {
-      "publishedAt": "2020-04-22T08:38:07Z",
-      "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
-      "title": "Apoorv Goyal",
-      "description": "This channel is going to have web development bootcamps, along with videos on startups, freelancing, passive income and its ...",
-      "thumbnails": {
-        "default": {
-          "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s88-c-k-c0xffffffff-no-rj-mo"
-        },
-        "medium": {
-          "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s240-c-k-c0xffffffff-no-rj-mo"
-        },
-        "high": {
-          "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s800-c-k-c0xffffffff-no-rj-mo"
-        }
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fj_LmzoXFbuFCsHtsL3xH86MN90",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCbKRTD-bqh0F2XM2raMO7kw"
       },
-      "channelTitle": "Apoorv Goyal",
-      "liveBroadcastContent": "none",
-      "publishTime": "2020-04-22T08:38:07Z"
+      "snippet": {
+        "publishedAt": "2020-04-22T08:38:07Z",
+        "channelId": "UCbKRTD-bqh0F2XM2raMO7kw",
+        "title": "Apoorv Goyal",
+        "description": "This channel is going to have web development bootcamps, along with videos on startups, freelancing, passive income and its ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/UZGPqsx6m9StL5jTpAVk_pMdgHSf4nhAua7eCWYw8V7qn7GtjKgWzw2dcOGPwAtovrAUccMH=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Apoorv Goyal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-22T08:38:07Z"
+      }
     }
-  }
+  ]
 }

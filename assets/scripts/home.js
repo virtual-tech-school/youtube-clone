@@ -21,26 +21,29 @@ fetch("./assets/videos.json")
 
     .then(data => {
 
-        console.log(data);
+        // var channelIcon = data.channeldetails.snippet.thumbnails.high.url;
 
-        var channelIcon = data.channeldetails.snippet.thumbnails.high.url;
-        
-        data.items.forEach(item => {
+        var len = data.items.length;
+        var channelIcon = data.items[len - 1].snippet.thumbnails.high.url;
+
+        for (var i = 0; i < len - 1; i++) {
+            
+            data.items[i].channelIcon = channelIcon;
 
             videoSection.innerHTML +=
 
-            `<div class="col-sm-12 col-md-6 col-lg-3">
+                `<div class="col-sm-12 col-md-6 col-lg-3">
 
-                <div class="card video" onclick = "location.href = 'https://youtube.com/watch?v=${item.id.videoId}' ">
-                    <img src="${item.snippet.thumbnails.high.url}" class="card-img-top thumbnail" alt="">
+                <div class="card video" onclick = "location.href = 'https://youtube.com/watch?v=${data.items[i].id.videoId}' ">
+                    <img src="${data.items[i].snippet.thumbnails.high.url}" class="card-img-top thumbnail" alt="">
                     <div class="card-body d-flex">
-                        <img class="card-title video-user" src="${channelIcon}" alt="">
-                        <p class="card-text title">${item.snippet.title}</p>
+                        <img class="card-title video-user" src="${data.items[i].channelIcon}" alt="">
+                        <p class="card-text title">${data.items[i].snippet.title}</p>
                     </div>
-                    <p class="channel-name">${item.snippet.channelTitle}</p>
+                    <p class="channel-name">${data.items[i].snippet.channelTitle}</p>
                 </div>
             </div> `;
+        }
 
-        });
     });
 
