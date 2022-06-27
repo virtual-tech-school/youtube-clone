@@ -24,22 +24,24 @@ body {
 
 .catagory {
     align-items: center;
-    background: #fff;
     border-bottom: 1px solid #dbdbdb;
-    border-top: 1px solid #dbdbdb;
     display: flex;
     height: 60px;
-    left: 260px;
+    margin-left: 258px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 0 20px;
-    position: fixed;
     top: 60px;
     width: calc(100% - 250);
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px 2%;
+    position: sticky;
+    z-index: 10;
 
 }
 
-.catagory_btn {
+.catagory-btn {
+
     background: #f0f0f0;
     border: 1px solid #dbdbdb;
     color: #242424;
@@ -57,6 +59,14 @@ body {
 
 }
 
+.channel-name {
+    color: #979797;
+    font-size: 14px;
+    margin-top: -1rem;
+    margin-left: 55px;
+
+}
+
 .flex-div {
     align-items: center;
     display: flex;
@@ -70,28 +80,11 @@ body {
 
 .foot small {
     cursor: pointer;
-    
+
 }
 
 img {
     cursor: pointer;
-
-}
-
-.large-catagory-bar {
-    align-items: center;
-    background: #fff;
-    border-bottom: 1px solid #dbdbdb;
-    border-top: 1px solid #dbdbdb;
-    display: flex;
-    height: 60px;
-    left: 80px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0 20px;
-    position: fixed;
-    top: 60px;
-    width: calc(100% - 250);
 
 }
 
@@ -130,7 +123,6 @@ img {
 
 .nav {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     padding: 10px 2%;
     position: sticky;
@@ -244,20 +236,20 @@ img {
 
 }
 
-/* review */
-
 .small-sidebar .subscribe {
     display: none;
 }
 
 .small-sidebar .more {
-display: none;
-
-}
-.small-sidebar .foot{
     display: none;
 
 }
+
+.small-sidebar .foot {
+    display: none;
+
+}
+
 .small-sidebar {
     width: 10%;
 
@@ -278,9 +270,90 @@ display: none;
 
 }
 
+.small-sidebar i {
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+
+.thumbnail {
+    height: 150px;
+    object-fit: cover;
+}
+.title {
+    height: 45px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
 .user {
     border-radius: 50%;
     margin-right: 0;
     width: 2.8125rem;
+
+}
+
+/* video */
+
+.video-user {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 1rem;
+    margin-left: -1rem;
+    width: 40px;
+
+}
+
+.video {
+    border: none !important;
+    margin-left: 80px;
+    object-fit: cover;
+    overflow: hidden !important;
+    padding: 5px;
+    width: 16rem !important;
+
+}
+
+.video-div {
+    background-color: white;
+    margin-top: -1rem;
+    margin-left: 155px;
+    padding: 30px;
+}
+
+
+/* For Large Screens */
+
+
+.large-video-div {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.large-video-div .video {
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding: 10px;
+    width: 18rem !important;
+
+}
+
+.large-catagory-bar {
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    height: 60px;
+    margin-left: 70px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 20px;
+    position: fixed;
+    top: 60px;
+    width: calc(100% - 250);
+    
 
 }
