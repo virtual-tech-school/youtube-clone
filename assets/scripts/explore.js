@@ -1,25 +1,68 @@
 const showMore = document.querySelector(".show-more");
 const maxHeight = document.querySelector(".max-height");
 const content = document.querySelector("#container-content");
+const typeCard = document.querySelector(".type-grid");
 const videoCardContainer1 = document.querySelector(".video-card-container-1");
 const videoCardContainer2 = document.querySelector(".video-card-container-2");
 const shortsCardContainer = document.querySelector(".shorts-card-container");
 
+
+const gridCard = [ 
+  {type:"Trending", icon:"assets/images/type-icons/trending_color_64.png"},
+  {type:"Music", icon:"assets/images/type-icons/music_color_64.png"},
+  {type:"Movies", icon:"assets/images/type-icons/movies_color_64.png"},
+  {type:"Live", icon:"assets/images/type-icons/live_color_64.png"},
+  {type:"Gaming", icon:"assets/images/type-icons/gaming_color_64.png"},
+  {type:"News", icon:"assets/images/type-icons/news_color_64.png"},
+  {type:"Sports", icon:"assets/images/type-icons/sports_color_64.png"},
+  {type:"Learning", icon:"assets/images/type-icons/learning_color_64_v1.png"},
+  {type:"Fashion & Beauty", icon:"assets/images/type-icons/fashion_and_beauty_color_64.png"}
+ 
+];
+
+const createGridCard = function (arrayOfGridCard) {
+
+  for(let i = 0; i < arrayOfGridCard.length; i++){
+  
+    typeCard.innerHTML +=`
+  
+    <div class="type-card  col-md-3 col-sm-4 col-6">
+         <img src="${arrayOfGridCard[i].icon}" class="type-card-img">
+  
+        <div class="type-card-title">
+                  ${arrayOfGridCard[i].type}
+        </div>
+    </div>
+    
+    `
+  
+  }
+  
+  
+}
+
+createGridCard(gridCard);
+
 fetch("/assets/videos.json")
   .then((response) => response.json())
   .then((data) => {
-    // console.log(data);
-    // console.log(data.items);
+
+
 
     const arrayOfVideos = [...data.items];
 
+    //before shorts
     for (let i = 0; i < 2; i++) {
       createVideoCard(arrayOfVideos[i],videoCardContainer1);
     }
+    
+    createShortsCard(arrayOfVideos);
+
+    //after shorts
     for (let i = 2; i < arrayOfVideos.length - 1; i++) {
       createVideoCard(arrayOfVideos[i],videoCardContainer2);
     }
-    createShortsCard(arrayOfVideos);
+    
 
   });
 
@@ -33,124 +76,148 @@ const createVideoCard = (data,videoCardContainer) => {
   videoCardContainer.innerHTML += `
   <div class="video-card" ">
   
-                    <div class="video-container">
-                    <a href="https://www.youtube.com/watch?v=${
-                      data.id.videoId
-                    }">
-                        <img src="${data.snippet.thumbnails.high.url}">
-                        <div class="video-hover">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock " viewBox="0 0 16 16">
+      <div class="video-container">
+          
+          <a href="https://www.youtube.com/watch?v=${data.id.videoId}">
+              
+              <img src="${data.snippet.thumbnails.high.url}">
+                  
+                  <div class="video-hover">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock " viewBox="0 0 16 16">
                             <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
                             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg>
-                    </div>
-                    </a>
-                    </div>
+                      </svg>
+                  </div>
+         
+          </a>
 
-                    <div class="video-card-data">
+      </div>
 
-                        <div class="video-info">
-                        <a href="https://www.youtube.com/watch?v=${
-                          data.id.videoId
-                        }">
+      <div class="video-card-data">
 
-                            <div class="video-title-container">
+          <div class="video-info">
 
+              <a href="https://www.youtube.com/watch?v=${data.id.videoId}">
 
-                                <div class="video-title line-clamp" title="${
-                                  data.snippet.title
-                                }">
-                                    <p>${data.snippet.title}</p>
-                                </div>
-                                <div class="more-options">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-                                        <path
-                                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                  <div class="video-title-container">
 
-                                    </svg>
-                                </div>
-                            </div>
-                            <a href="https://www.youtube.com/channel/UCbKRTD-bqh0F2XM2raMO7kw">
+                      <div class="video-title line-clamp" title="${data.snippet.title}">
+                          <p>${data.snippet.title}</p>
+                      </div>
+                              
+                      <div class="more-options">
+                                  
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                      class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                          </svg>
 
-                            <div class="video-channel" title="${
-                              data.snippet.channelTitle
-                            }">${data.snippet.channelTitle}</div>
-                            </a>
-                            <div class="statistic-info">
-                                <div class="video-views">2.3K views</div>
-                                <i class="fa fa-circle"></i>
-                                <div class="video-time">${createDates(
-                                  data.snippet.publishedAt
-                                )}</div>
-                            </div>
-                            <div class="video-desc line-clamp">
-                                <p>${data.snippet.description}</p>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
+                      </div>
+
+                  </div>
+
+                  <a href="https://www.youtube.com/channel/UCbKRTD-bqh0F2XM2raMO7kw">
+
+                      <div class="video-channel" title="${data.snippet.channelTitle}">${data.snippet.channelTitle}</div>
+
+                  </a>
+
+                  <div class="statistic-info">
+                     
+                      <div class="video-views">2.3K views</div>
+
+                          <i class="fa fa-circle"></i>
+                          <div class="video-time">${createDates(data.snippet.publishedAt)}</div>
+
+                      </div>
+
+                      <div class="video-desc line-clamp">
+
+                          <p>${data.snippet.description}</p>
+
+                      </div>
+
+              </a>
+
+          </div>
+
+      </div>
                     
-                </div>
-                `;
+  </div>
+`;
 };
+
+
 const createShortsCard = (data) => {
   for (let j = 0; j < data.length - 1; j++) {
     shortsCardContainer.innerHTML += `
   <div class="shorts-card">
-        <div class="shorts-video-container">
-        <a href="https://www.youtube.com/watch?v=${data[j].id.videoId}">
-            <img src="${data[j].snippet.thumbnails.high.url}">
-            <div class="video-hover">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock " viewBox="0 0 16 16">
-                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-            </svg>
-        </div>
-        </a>
-        </div>
+      
+      <div class="shorts-video-container">
 
-    <div class="shorts-card-data">
-
-      <div class="shorts-video-info">
-      <a href="https://www.youtube.com/watch?v=${data[j].id.videoId}">
-
-          <div class="shorts-video-title-container">
-
-
-              <div class="shorts-video-title line-clamp" title="${data[j].snippet.title}">
-                  <p>${data[j].snippet.title}</p>
-              </div>
-              <div class="shorts-more-options">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                      class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-                      <path
-                          d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-
+          <a href="https://www.youtube.com/watch?v=${data[j].id.videoId}">
+              
+              <img src="${data[j].snippet.thumbnails.high.url}">
+              
+              <div class="video-hover">
+            
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock " viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
                   </svg>
+              
               </div>
-          </div>
-
-          <a href="https://www.youtube.com/channel/UCbKRTD-bqh0F2XM2raMO7kw">
-
-          <div class="shorts-video-channel" title="${data[j].snippet.channelTitle}">${data[j].snippet.channelTitle}</div>
           
           </a>
-          <div class="shorts-statistic-info">
-              <div class="video-views">2.3K views</div>
-              <i class="fa fa-circle"></i>
-              <div class="video-time">${createDates(
-                data[j].snippet.publishedAt
-              )}</div>
-          </div>
-          </a>
-         
+
       </div>
-  </div>
+
+      <div class="shorts-card-data">
+
+          <div class="shorts-video-info">
+
+              <a href="https://www.youtube.com/watch?v=${data[j].id.videoId}">
+                      
+                      <div class="shorts-video-title-container">
+                          
+                          <div class="shorts-video-title line-clamp" title="${data[j].snippet.title}">
+                              <p>${data[j].snippet.title}</p>
+                          </div>
+
+                          <div class="shorts-more-options">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                  class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                              </svg>
+                          </div>
+                      </div>
+
+                  <a href="https://www.youtube.com/channel/UCbKRTD-bqh0F2XM2raMO7kw">
+
+                      <div class="shorts-video-channel" title="${data[j].snippet.channelTitle}">${data[j].snippet.channelTitle}</div>
+
+                  </a>
+
+                  <div class="shorts-statistic-info">
+                      
+                      <div class="video-views">2.3K views</div>
+
+                      <i class="fa fa-circle"></i>
+
+                      <div class="video-time">${createDates(data[j].snippet.publishedAt)}</div>
+                  
+                  </div>
+
+              </a>
+              
+          </div>
+
+      </div>
+      
 </div>`;
   }
 
-  $(".owl-carousel").owlCarousel({
+$(".owl-carousel").owlCarousel({
     margin: 25,
     nav: true,
     items: 5,
@@ -229,3 +296,5 @@ const createDates = (data) => {
 
   return timeLapsed;
 };
+
+
