@@ -19,6 +19,7 @@
 - [ ] My code follows the coding standards of this project.
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
+- [ ] Check if the requested PR are related to project.
 
 ## 📄 Note to reviewers
 
