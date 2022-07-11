@@ -1,33 +1,11 @@
-/* colours 
-#181818	(24,24,24)
-#212121	(33,33,33)
-#3d3d3d	(61,61,61)
-#ffffff	(255,255,255)
-#aaaaaa (170,170,170)
-
-#cc181e	(204,24,30)
-#878787	(135,135,135)
-#cbcbcb	(203,203,203)
-#f1f1f1	(241,241,241)
-#ffffff	(255,255,255)
-*/
 :root {
-    /*Light
-      --page-background-color: #f7f7f7;
-      --type-card-background-color: #fff;
-      --type-card-background-hover-color: #dcdbdb;
-      --text-color-titles: #000;
-      --text-color-desc: #878787;
-      */
-  
-    /* Dark */
-    --page-background-color: #181818; /*page,container,card*/
+    
+    --page-background-color: #181818; 
     --text-color-titles: #fff;
     --text-color-desc: #aaaaaa;
-    --type-card-background-color: #212121; /*type card, owl carousel buttons separator*/
-    --type-card-background-hover-color: #3d3d3d; /*type card, owl carousel buttons*/
+    --type-card-background-color: #212121; 
+    --type-card-background-hover-color: #3d3d3d;
   }
-
   
 .bg {
 	-webkit-mask-image: linear-gradient(to top, transparent 2%, black 20%);
