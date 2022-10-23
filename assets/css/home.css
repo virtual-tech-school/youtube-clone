@@ -216,10 +216,18 @@ img {
     width: 30px;
 
 }
-
+.short a{
+    width: 90%;
+    padding-block: .5em;
+    padding-left: .5em;
+}
+.short a:hover{
+    background: rgba(0,0,0,.2);
+    color: initial;
+}
 .short a:first-child {
-    color: red;
-
+    color: #000;
+    background: rgba(0,0,0,.2);
 }
 
 .sidebar hr {
